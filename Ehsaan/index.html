@@ -51,6 +51,16 @@
       animation-delay: 3s;
     animation-duration: 1s;
     }
+    .description{
+      animation: forwards;
+      animation-name: pAnim;
+      animation-delay: 3s;
+    animation-duration: 1s;
+    }
+    @keyframes pAnim {
+      0%   {color: white}
+      100%  {color: rgb(34, 32, 32); font-family: 'Times New Roman', Times, serif; font-size: 20px;}
+    }
     @keyframes cardOpen {
       0%   {width: 0px; height: 0px;font-size: 0%}
       100%  {width: 100%; height: 100%;font-size: 20px}
@@ -107,7 +117,10 @@
                 alt=""
               />
             </div>
-            <h1 class="name" style="text-align: justify-self; font-size: 0%;">Ali Tariq</h1>
+            <h1 class="name" style="text-align: center; font-size: 0%; font-family: 'Times New Roman', Times, serif;">Ali Tariq</h1>
+            <p class="description" style="color: white;">
+              I am an Undergrat sophomore at Unversity of Engineering and Technology, Lahore. I am an enthusiastic web Developer and a passionate learner.
+            </p>
           </div>
           
     </div>
@@ -189,7 +202,7 @@
           <a
             class="btn btn-primary btn-floating m-1"
             style="background-color: #0082ca;"
-            href="#!"
+            href="https://www.linkedin.com/in/alitariq-12369/"
             role="button"
             ><i class="fab fa-linkedin-in"></i
           ></a>
@@ -197,7 +210,7 @@
           <a
             class="btn btn-primary btn-floating m-1"
             style="background-color: #333333;"
-            href="#!"
+            href="https://github.com/alitariq12369"
             role="button"
             ><i class="fab fa-github"></i
           ></a>
@@ -208,8 +221,8 @@
     
       <!-- Copyright -->
       <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2020 Copyright:
-        <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        © 2021 Copyright:
+        <a class="text-white" href="">Ali Tariq</a>
       </div>
       <!-- Copyright -->
     </footer>
