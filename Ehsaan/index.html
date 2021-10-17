@@ -31,7 +31,13 @@
       animation: forwards;
       animation-name: cardOpen;
       animation-delay: 6s;
-    animation-duration: 3s;
+    animation-duration: 1s;
+    }
+    .card-title{
+      animation: forwards;
+      animation-name: cardTitleOpen;
+      animation-delay: 7s;
+    animation-duration: 1s;
     }
     .Portfolio{
       animation: forwards;
@@ -46,8 +52,12 @@
     animation-duration: 1s;
     }
     @keyframes cardOpen {
-      0%   {width: 0px; height: 0px;}
-      100%  {width: 100%; height: 100%;}
+      0%   {width: 0px; height: 0px;font-size: 0%}
+      100%  {width: 100%; height: 100%;font-size: 20px}
+    }
+    @keyframes cardTitleOpen {
+      0%   {font-size: 0%}
+      100%  {font-size: 20px}
     }
     @keyframes name {
       0%   {font-size: 0%;}
@@ -102,11 +112,12 @@
           
     </div>
     <div class="row">
-      <div class="col-md-4">
-        <div class="card" style="width: 0%; height: 0%;">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <div class="card" style="width: 0%; height: 0%; font-size: 0%;">
           <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
             <img
-              src="https://mdbootstrap.com/img/new/standard/nature/111.jpg"
+              src="/img/webdev.jpg"
               class="img-fluid"
             />
             <a href="#!">
@@ -114,60 +125,94 @@
             </a>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title" style="font-size: 0%;">Web Developer</h5>
             <p class="card-text">
-              Some quick example text to build on the card title and make up the bulk of the
-              card's content.
+              I have been working on Web Based Projects since a year or so, I have also done an Internship as a Full Stack Developer.
             </p>
-            <a href="#!" class="btn btn-primary">Button</a>
+
           </div>
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="card" style="width: 0%; height: 0%;">
-          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-            <img
-              src="https://mdbootstrap.com/img/new/standard/nature/111.jpg"
-              class="img-fluid"
-            />
-            <a href="#!">
-              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-            </a>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the bulk of the
-              card's content.
-            </p>
-            <a href="#!" class="btn btn-primary">Button</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card" style="width: 0%; height: 0%;">
-          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-            <img
-              src="https://mdbootstrap.com/img/new/standard/nature/111.jpg"
-              class="img-fluid"
-            />
-            <a href="#!">
-              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-            </a>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the bulk of the
-              card's content.
-            </p>
-            <a href="#!" class="btn btn-primary">Button</a>
-          </div>
-        </div>
-      </div>
+      <div class="col-md-2"></div>
     </div>
+
+    <div class="row mt-4">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <div class="card" style="width: 0%; height: 0%; font-size: 0%;">
+          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+            <img
+              src="/img/freelancing.jpg"
+              class="img-fluid"
+            />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title" style="font-size: 0%;">Free Lancer</h5>
+            <p class="card-text">
+              I am a Free lancer at Fiverr, and Done Projects. Go Check out my profile at <a href="https://www.fiver.com/ali_tariq_bajwa">Fiverr</a>
+            </p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+    </div>
+    <footer class="bg-light text-center text-white mt-4">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #3b5998;"
+            href="https://www.facebook.com/profile.php?id=100017773476778"
+            role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
     
-    </div>
+    
+          <!-- Instagram -->
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #ac2bac;"
+            href="https://www.instagram.com/ali._._.tariq/"
+            role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+    
+          <!-- Linkedin -->
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #0082ca;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <!-- Github -->
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #333333;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2020 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
     <!-- End your project here-->
 
     <!-- MDB -->
