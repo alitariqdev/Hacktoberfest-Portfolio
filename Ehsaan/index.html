@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Ali Tariq</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+  </head>
+  <style>
+    #abc{
+    animation: forwards;
+      animation-name: atmAnim;
+      animation-delay: 2s;
+    animation-duration: 3s;
+    }
+    .card{
+      animation: forwards;
+      animation-name: cardOpen;
+      animation-delay: 6s;
+    animation-duration: 1s;
+    }
+    .card-title{
+      animation: forwards;
+      animation-name: cardTitleOpen;
+      animation-delay: 7s;
+    animation-duration: 1s;
+    }
+    .Portfolio{
+      animation: forwards;
+      animation-name: portfolioOpen;
+      animation-delay: 3s;
+    animation-duration: 3s;
+    }
+    .name{
+      animation: forwards;
+      animation-name: name;
+      animation-delay: 3s;
+    animation-duration: 1s;
+    }
+    .description{
+      animation: forwards;
+      animation-name: pAnim;
+      animation-delay: 3s;
+    animation-duration: 1s;
+    }
+    @keyframes pAnim {
+      0%   {color: white}
+      100%  {color: rgb(34, 32, 32); font-family: 'Times New Roman', Times, serif; font-size: 20px;}
+    }
+    @keyframes cardOpen {
+      0%   {width: 0px; height: 0px;font-size: 0%}
+      100%  {width: 100%; height: 100%;font-size: 20px}
+    }
+    @keyframes cardTitleOpen {
+      0%   {font-size: 0%}
+      100%  {font-size: 20px}
+    }
+    @keyframes name {
+      0%   {font-size: 0%;}
+      100%  {font-size: 50px;}
+    }
+    @keyframes portfolioOpen {
+      0%   {width: 0px; height: 0px;}
+      100%  {width: 100%; height: 100%;}
+    }
+    
+    @keyframes atmAnim {
+      0%   {width: 270px; height: 270px;}
+  100%  {width: 0px; height: 0px;}
+    }
+  </style>
+  <body>
+    <!-- Start your project here-->
+    <div class="container">
+      <div id = "atm"class="d-flex justify-content-center align-items-center" style="height: 100vh;">
+       
+          <div class="text-center">
+            <img
+            id="abc"
+              class="mb-4"
+              src="/img/A.png"
+              style="width: 270px; height: 270px;"
+            />
+            <img
+            id = "abc"
+              class="mb-4"
+              src="/img/T.png"
+              style="width: 200px; height: 240px;"
+            />
+            <img
+            id="abc"
+            class="mb-4"
+            src="/img/M.png"
+            style="width: 230px; height: 240px;"
+          />
+          </div>
+
+          <div class="Portfolio" style="width: 0px; height: 0px;">
+            <div class="container">
+              <img
+                src="/img/Ali Tariq.jpg"
+                class="img-fluid rounded-circle"
+                alt=""
+              />
+            </div>
+            <h1 class="name" style="text-align: center; font-size: 0%; font-family: 'Times New Roman', Times, serif;">Ali Tariq</h1>
+            <p class="description" style="color: white;">
+              I am an Undergrat sophomore at Unversity of Engineering and Technology, Lahore. I am an enthusiastic web Developer and a passionate learner.
+            </p>
+          </div>
+          
+    </div>
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <div class="card" style="width: 0%; height: 0%; font-size: 0%;">
+          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+            <img
+              src="/img/webdev.jpg"
+              class="img-fluid"
+            />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title" style="font-size: 0%;">Web Developer</h5>
+            <p class="card-text">
+              I have been working on Web Based Projects since a year or so, I have also done an Internship as a Full Stack Developer.
+            </p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+
+    <div class="row mt-4">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <div class="card" style="width: 0%; height: 0%; font-size: 0%;">
+          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+            <img
+              src="/img/freelancing.jpg"
+              class="img-fluid"
+            />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title" style="font-size: 0%;">Free Lancer</h5>
+            <p class="card-text">
+              I am a Free lancer at Fiverr, and Done Projects. Go Check out my profile at <a href="https://www.fiver.com/ali_tariq_bajwa">Fiverr</a>
+            </p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+    </div>
+    <footer class="bg-light text-center text-white mt-4">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #3b5998;"
+            href="https://www.facebook.com/profile.php?id=100017773476778"
+            role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+    
+    
+          <!-- Instagram -->
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #ac2bac;"
+            href="https://www.instagram.com/ali._._.tariq/"
+            role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+    
+          <!-- Linkedin -->
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #0082ca;"
+            href="https://www.linkedin.com/in/alitariq-12369/"
+            role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <!-- Github -->
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #333333;"
+            href="https://github.com/alitariq12369"
+            role="button"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2021 Copyright:
+        <a class="text-white" href="">Ali Tariq</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+  </body>
+</html>
